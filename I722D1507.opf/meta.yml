@@ -15,8 +15,8 @@ default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2022-08-27T11:51:27.143938+00:00'
-last_modified: 2022-08-27 19:52:53.900639
+imported: '2022-09-03T14:42:12.178165+00:00'
+last_modified: 2022-09-03 22:43:08.199469
 parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
   id: http://purl.bdrc.io/resource/W3CN4963
@@ -31,18 +31,6 @@ statistics:
   ocr_word_median_confidence_index: 0.9800000190734863
 quality: null
 bases:
-  I3CN4965:
-    source_metadata:
-      id: http://purl.bdrc.io/resource/I3CN4965
-      total_pages: 518
-      volume_number: 1
-      volume_pages_bdrc_intro: 2
-    order: 1
-    base_file: I3CN4965.txt
-    statistics:
-      ocr_word_median_confidence_index: 0.9800000190734863
-      ocr_word_mean_confidence_index: 0.9463450049171762
-    legacy_id: v001
   I3CN4966:
     source_metadata:
       id: http://purl.bdrc.io/resource/I3CN4966
@@ -55,6 +43,18 @@ bases:
       ocr_word_median_confidence_index: 0.9800000190734863
       ocr_word_mean_confidence_index: 0.9148551236691966
     legacy_id: v002
+  I3CN4965:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I3CN4965
+      total_pages: 518
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I3CN4965.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9800000190734863
+      ocr_word_mean_confidence_index: 0.9463450049171762
+    legacy_id: v001
 copyright:
   status: Public domain
   notice: Public domain
